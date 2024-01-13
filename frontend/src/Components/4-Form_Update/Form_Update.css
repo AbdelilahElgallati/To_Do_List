@@ -1,0 +1,53 @@
+.formUpdate {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 7rem;
+  
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formUpdate div {
+  margin-bottom: 15px;
+}
+
+.formUpdate label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.formUpdate input {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formUpdate select {
+  width: 99.5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formUpdate button {
+  /* background-color: #007bff; */
+  background-color: #d8cece;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.formUpdate button:hover {
+  background-color: rgb(60, 61, 63);
+}
